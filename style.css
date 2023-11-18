@@ -158,7 +158,14 @@
   
 }
 
-
+@media (min-width: 770px){
+  .footer-down {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 1000;
+  }
+}
 
 @media (max-width: 650px) {
     .flex-container {
